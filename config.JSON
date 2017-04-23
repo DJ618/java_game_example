@@ -1,0 +1,50 @@
+{
+    "GameWindow": {
+      "x_leftout": "10",
+      "x_rightout": "1000",
+      "y_upout": "45",
+      "y_downout": "800"
+    },
+    "Player": {
+      "numLives": "10",
+      "score2EarnLife": "100"
+    },
+    "numBalls": "3",
+    "Ball": [
+        {
+          "id": "1",
+          "type": "basicball",
+          "radius": "15",
+          "initXpos": "500",
+          "initYpos": "400",
+          "speedX": "1",
+          "speedY": "-1",
+          "maxBallSpeed": "2",
+          "color": ["255","0","0"]
+        },
+        {
+          "id": "2",
+          "type": "bounceball",
+          "radius": "20",
+          "initXpos": "300",
+          "initYpos": "350",
+          "speedX": "1",
+          "speedY": "1",
+          "maxBallSpeed": "3",
+          "color": ["0","0","255"],
+          "bounceCount": "10"
+        },
+        {
+          "id": "3",
+          "type": "shrinkball",
+          "radius": "40",
+          "initXpos": "600",
+          "initYpos": "450",
+          "speedX": "1",
+          "speedY": "-1",
+          "maxBallSpeed": "2",
+          "color": ["0","255","0"],
+		  "shrinkRate" : "30"
+        }
+      ]
+}
