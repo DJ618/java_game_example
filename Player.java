@@ -1,18 +1,16 @@
 public class Player
 {
-	
-	private int score;			   //player score
-	private boolean gameover=false;	
-	public int scoreConstant = 10; //This constant value is used in score calculation. You don't need to change this.
+	private int score;
+	private boolean gameover=false;
+	public int scoreConstant = 10;
 	public int numLives;
 	public int score2EarnLife;
 	public double hits;
 	public double misses;
 
-	
 	public Player()
 	{
-		score = 0; //initialize the score to 0
+		score = 0;
 		numLives = 1;
 		hits = 0;
 		misses = 0;
